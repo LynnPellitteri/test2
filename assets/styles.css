@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+  width: 100vw;
+}
+
+.navBar a {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: flex-end;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer ul {
+  justify-content: space-evenly;
+  display: flex;
+  flex: wrap;
+  background-color: lightcoral;
+  width: 100vw;
+  list-style-type: none;
+}
